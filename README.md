@@ -1,8 +1,8 @@
 # yii2-multiselect
 
-[![Latest Version](https://img.shields.io/github/release/lawiet/yii2-multiselect.svg?style=flat-square)](https://github.com/wbraganca/yii2-multiselect/releases)
+[![Latest Version](https://img.shields.io/github/release/lawiet/yii2-multiselect.svg?style=flat-square)](https://github.com/lawiet/yii2-multiselect/releases)
 [![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/lawiet/yii2-multiselect.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-multiselect)
+[![Total Downloads](https://img.shields.io/packagist/dt/lawiet/yii2-multiselect.svg?style=flat-square)](https://packagist.org/packages/lawiet/yii2-multiselect)
 
 
 ## Install
@@ -29,22 +29,12 @@ On your view file.
 ```php
 
 <?php
-use lawiet\multiselect\MultiSelectWidget;
+use lawiet\multiselect\MultiSelectBoxWidget;
 ?>
 
-<?= MultiSelect::widget([
+<?= MultiSelectBox::widget([
     'options' => [
         'multiple' => 'multiple',
-    ],
-    'clientOptions' => [
-        'nonSelectedText' => 'Check an option!',
-        'nSelectedText' => ' - Options selected!',
-        'allSelectedText' => 'All',
-        'selectAllText' => 'Check all!',
-        'numberDisplayed' => 1,
-        'enableCaseInsensitiveFiltering' => true,
-        'maxHeight' => 300, // The maximum height of the dropdown. This is useful when using the plugin with plenty of options.
-        'includeSelectAllOption' => true
     ],
     'data' => $cities,
     'model' => $model,

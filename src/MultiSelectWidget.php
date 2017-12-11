@@ -19,7 +19,7 @@ use yii\web\View;
  *
  * @author Jorge Gonzalez <ljorgelgonzalez@gmail.com>
  */
-class MultiSelectWidget extends \yii\widgets\InputWidget
+class MultiSelectBoxWidget extends \yii\widgets\InputWidget
 {
     /**
      * The name of the jQuery plugin to use for this widget.
