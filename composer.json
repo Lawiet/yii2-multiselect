@@ -1,0 +1,43 @@
+{
+    "name": "lawiet/yii2-multiselect",
+    "description": "The yii2-multiselect is a Yii 2 wrapper for [Multiselect](http://loudev.com/).",
+    "type": "yii2-extension",
+    "keywords": [
+        "lawiet",
+        "yii2",
+        "yii2-multiselect",
+        "select",
+        "multiselect",
+        "box"
+    ],
+    "homepage": "https://github.com/lawiet/yii2-multiselect",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jorge Gonzalez|",
+            "email": "ljorgelgonzalez@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/lawiet/yii2-multiselect/issues",
+        "source": "https://github.com/lawiet/yii2-multiselect"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "lawiet\\multiselect\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
