@@ -1,8 +1,8 @@
 # yii2-multiselect
 
-[![Latest Version](https://img.shields.io/github/release/wbraganca/yii2-multiselect.svg?style=flat-square)](https://github.com/wbraganca/yii2-multiselect/releases)
+[![Latest Version](https://img.shields.io/github/release/lawiet/yii2-multiselect.svg?style=flat-square)](https://github.com/wbraganca/yii2-multiselect/releases)
 [![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/wbraganca/yii2-multiselect.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-multiselect)
+[![Total Downloads](https://img.shields.io/packagist/dt/lawiet/yii2-multiselect.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-multiselect)
 
 
 ## Install
@@ -10,13 +10,13 @@
 Via Composer
 
 ```bash
-$ composer require "wbraganca/yii2-multiselect:~1.0.1"
+$ composer require "lawiet/yii2-multiselect:~1.0.1"
 ```
 
 or add
 
 ```
-"wbraganca/yii2-multiselect": "~1.0.1"
+"lawiet/yii2-multiselect": "~1.0.1"
 ```
 
 to the require section of your `composer.json` file.
@@ -29,7 +29,7 @@ On your view file.
 ```php
 
 <?php
-use wbraganca\multiselect\MultiSelectWidget;
+use lawiet\multiselect\MultiSelectWidget;
 ?>
 
 <?= MultiSelect::widget([
@@ -53,4 +53,4 @@ use wbraganca\multiselect\MultiSelectWidget;
 
 ```
 
-For more options, visit: http://davidstutz.github.io/bootstrap-multiselect
+For more options, visit: http://loudev.com/
