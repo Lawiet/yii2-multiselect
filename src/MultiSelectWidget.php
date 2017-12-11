@@ -24,7 +24,7 @@ class MultiSelectWidget extends \yii\widgets\InputWidget
     /**
      * The name of the jQuery plugin to use for this widget.
      */
-    const WIDGET_NAME = 'multiselect';
+    const WIDGET_NAME = 'multiSelect';
 
     /**
      * @var array data for generating the list options (value=>display)
