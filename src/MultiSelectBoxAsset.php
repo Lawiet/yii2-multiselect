@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  *
  * @author Jorge Gonzalez <ljorgelgonzalez@gmail.com>
  */
-class MultiSelectAsset extends AssetBundle
+class MultiSelectBoxAsset extends AssetBundle
 {
     public $sourcePath = __DIR__ . '/assets';
 

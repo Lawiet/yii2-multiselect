@@ -6,7 +6,7 @@
  */
 namespace lawiet\multiselect;
 
-use lawiet\multiselect\MultiSelectAsset;
+use lawiet\multiselect\MultiSelectBoxAsset;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -99,7 +99,7 @@ class MultiSelectBoxWidget extends \yii\widgets\InputWidget
         $this->hashPluginOptions($view);
         $id = $this->options['id'];
         $js .= '$("#' . $id . '").' . static::WIDGET_NAME . "(" . $this->_hashVar . ");\n";
-        MultiSelectAsset::register($view);
+        MultiSelectBoxAsset::register($view);
         $view->registerJs($js);
     }
 }
